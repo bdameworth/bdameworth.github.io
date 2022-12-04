@@ -14,6 +14,7 @@
     font-weight: 300;
     line-height: 1.5;
     color: #333;
+    background-color: #333;
   }
   
   a {
@@ -41,10 +42,10 @@
   }
   
   header {
-    background-color: #84b4b1;
+    background-color: #111111;
     color: #fff;
     text-align: center;
-    padding: 30px 0 120px;
+    padding: 30px 0 40px;
   }
   header h1 {
     text-align: center;
@@ -70,6 +71,7 @@
     padding: 40px 0 300px;
     position: relative;
     overflow: hidden;
+    
   }
   .gallery ul {
     padding-top: 50px;
