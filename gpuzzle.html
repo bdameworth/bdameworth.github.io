@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | GAME_GlassesPuzzle</title>
+    <title>Unity WebGL Player | GlassesPuzzle</title>
     <link rel="shortcut icon" href="GPuzzleTemplateData/favicon.ico">
     <link rel="stylesheet" href="GPuzzleTemplateData/style.css">
     <script src="GPuzzleTemplateData/UnityProgress.js"></script>
     <script src="GPuzzleBuild/UnityLoader.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script> 
     <script>
         var unityInstance = UnityLoader.instantiate("unityContainer", "GPuzzleBuild/GPuzzleWeb.json", {onProgress: UnityProgress});
     </script>
   </head>
+  <header>
+    <h1>Glasses Puzzle <br> <span>[ Benjamin Dameworth ]</span></h1>
+	<h2><a href = "index.html">Back</a></h2>
+</header>
   <body>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">GAME_GlassesPuzzle</div>
+        <div class="title">GlassesPuzzle</div>
       </div>
     </div>
   </body>
