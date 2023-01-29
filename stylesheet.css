@@ -67,6 +67,11 @@
   header p {
     padding-top: 30px;
   }
+
+  p {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
   
   .gallery {
     padding: 40px 0 300px;
@@ -247,3 +252,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #a72828;} 
+
+table, th, td {
+  border:1px solid black;
+}
