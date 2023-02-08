@@ -14,6 +14,8 @@
         if (/*typeof screen.orientation !== 'undefined' ||*/ navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) { 
             swapStyleSheet("scripts/mobilestylesheet.css");
             console.log("mobile mode!");
+         }else{
+            console.log("PC mode!");
          }
       }
     
