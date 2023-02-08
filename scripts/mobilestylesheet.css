@@ -259,3 +259,7 @@ table, th, td {
 .details{
   color:white;
 }
+iframe{
+  height:"540px";
+  width:"960px";
+}

@@ -1,5 +1,5 @@
 function initiate(){
-    if (typeof screen.orientation !== 'undefined') { 
+    if (typeof screen.orientation !== 'undefined' || screen.width < 1500 || navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) { 
         swapStyleSheet("mobilestylesheet.css");
      }
 }
