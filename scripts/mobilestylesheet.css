@@ -70,11 +70,11 @@
     
   }
   .gallery ul {
-    padding-top: 50px;
+    padding-top: 100px;
     position: relative;
   }
   .gallery ul li {
-    margin-bottom: 100px;
+    margin-bottom: 300px;
     width: 90%;
     position: relative;
     font-size: 80px;
