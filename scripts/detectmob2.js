@@ -13,11 +13,8 @@
       function init(){
         console.log("version 1.0.7");
         if (/*typeof screen.orientation !== 'undefined' ||*/ navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) { 
-            swapStyleSheet("scripts/mobilestylesheet.css");
-            var path = window.location.pathname;
-            var page = path.split("/").pop();
-            
-            console.log("mobile mode!");
+            //swapStyleSheet("scripts/mobilestylesheet.css");
+            window.location.href = "https://bdameworth.github.io/santadmob.hmtl";
          }else{
             console.log("PC mode!");
          }
