@@ -19,7 +19,7 @@
             
          }else{
             console.log("PC mode!");
-            window.location.assign("https://bdameworth.github.io/santad.html");
+            window.location.assign("https://bdameworth.github.io/santadpc.html");
          }
       }
     
